@@ -100,11 +100,11 @@
 
 	L.TileLayer.Provider.providers = {
 		OpenStreetMap: {
-			url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'',
+			url: 'https://{s}.tile.thunderforest.com/spinal-map/{z}/{x}/{y}.png?apikey={'<your apikey>'}',
 			options: {
-				maxZoom: 19,
+				maxZoom: 22,
 				attribution:
-					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>'
+					''&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 			},
 			variants: {
