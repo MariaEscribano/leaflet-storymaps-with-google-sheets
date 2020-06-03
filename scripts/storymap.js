@@ -271,10 +271,10 @@ $(window).on('load', function() {
                   style: function(feature) {
                     return {
                       fillColor: feature.properties.COLOR,
-                      weight: 1,
+                      weight: 2,
                       opacity: 0.5,
                       color: feature.properties.COLOR,
-                      fillOpacity: 0.5,
+                      fillOpacity: 0.1,
                     }
                   }
                 }).addTo(map);
